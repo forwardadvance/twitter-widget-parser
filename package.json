@@ -1,0 +1,33 @@
+{
+  "name": "tweetWidgetParser",
+  "version": "1.0.0",
+  "description": "Reverse engineers the official Twitter widget and returns a JSON object, so you can apply your own markup and styling.",
+  "main": "build/js/ng-tweets.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha source/spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/forwardadvance/tweet-widget-parser.git"
+  },
+  "author": "Nicholas Johnson",
+  "email": "nicholas@forwardadvance.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forwardadvance/tweet-widget-parser/issues"
+  },
+  "homepage": "https://github.com/forwardadvance/tweet-widget-parser",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0"
+  }
+}
